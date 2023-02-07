@@ -1,0 +1,321 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300&display=swap');
+
+body{
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color:#ffffff;
+    font-weight: 300;
+    color: white
+
+}
+
+.navbar-default{
+    background-color: rgb(23, 23, 23);
+    color: white;
+    scroll-behavior: auto;
+
+}
+
+@media (min-width:992px) {
+    .navbar-brand img {
+    height: 60px;
+   }
+    .navbar-default.shrink {
+   background-color: rgba(255, 255, 255, 1);
+   border-bottom:solid 1px #F7F7F7;
+   box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .1);
+   -webkit-box-shadow: 0 2px 2px -1px rgba(0, 0, 0, .1);
+   }
+    .shrink .navbar-brand {
+    height: 75px;
+   }
+    .shrink .navbar-brand img {
+    height: 45px;
+   }
+    .navbar.shrink {
+    min-height: 50px;
+   }
+    .shrink .navbar-nav {
+    margin: 20px 0;
+   }
+    .shrink .nav>li>a {
+    padding: 7px 15px;
+   }
+   }
+    @media (max-width:991px) {
+    .navbar-brand {
+    height: 70px;
+   }
+    .navbar {
+    min-height: 50px;
+   }
+    .navbar-nav {
+    margin: 17px 0;
+   }
+    .nav>li>a {
+   padding: 7px 12px;
+   }
+   }
+    @media (max-width:991px) {
+   .navbar-default {
+   background-color: rgba(255, 255, 255, 0.9);
+   }
+   }
+   
+   @media (min-width: 768px) {
+   .navbar-right .dropdown-menu-left {
+   left: 18px;
+   }
+   .navbar-right .active .dropdown-menu-left {
+   left: 0;
+    }
+   }
+
+   
+
+.carousel {
+	height: 650px;
+}
+
+.container {
+    position: relative;
+}
+
+.carousel-caption {
+	z-index: 10;
+	top:10cm;
+	bottom:0;
+    
+}
+ @media (max-width:480px) {
+.carousel-caption {
+top: 25%;
+}
+}
+.carousel .item {
+	height: 650px;
+	background-color: #c5c4c4;
+}
+.carousel-control.left {
+	background-image:none;
+}
+.carousel-control.right {
+	background-image:none;
+}
+.carousel-control .icon-prev, .carousel-control .icon-next, .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right {
+	top:55%;
+}
+.slide-one {
+	background:url() no-repeat;
+	background-size:cover;
+}
+.slide-two {
+	background:url() no-repeat;
+	background-size:cover;
+}
+.slide-three {
+	background:url() no-repeat;
+	background-size:cover;
+}
+
+.container-purpose{
+    margin: auto;
+    width: 100%;
+    position: relative;
+}
+
+.container-purpose img{
+    width: 100%;
+}
+
+.purposeText{
+    font-size: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    text-align: center;
+    background-color: none;
+    padding: 10px;
+    font-size: 50px;
+    bottom: 100px;
+    
+}
+
+.container-MVV {
+    color:  black;
+    position: relative;
+    font-weight: 400px; 
+    
+}
+
+.line1{
+    width: 105px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    left: 3.8cm;
+    top: 7.2cm;
+}
+
+.line2{
+    width: 105px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    left: 23.84cm;
+    top: 7cm;
+}
+
+.line3{
+    width: 105px;
+    height: 20px;
+    border-bottom: 2px solid black;
+    position: absolute;
+    left: 3.8cm;
+    top: 13.09cm;
+}
+
+.mission {
+    font-size: 28px;
+    position: absolute;
+    padding: 30px;
+    left: 3cm;
+    top: 2.25cm;
+
+}
+
+.mission h6{
+    margin-left: 4cm;
+}
+
+.vision {
+    font-size: 28px;
+    position: absolute;
+    padding: 30px;
+    left: 23cm;
+    top: 2cm;
+}
+
+.vision h6{
+    margin-left: 4cm;
+}
+
+.valueBox{
+    background-color: coral;
+}
+
+.values {
+    font-size: 28px;
+    position: absolute;
+    left: 140px;
+    top: 10cm;
+
+}
+
+.values h6{
+    margin-left: 4cm;
+}
+
+.container-differentials{
+    margin: auto;
+    width: 100%;
+    position: relative;
+    top: 17.5cm;
+}
+
+.container-differentials img{
+    width: 100%;
+    align-items: baseline;
+}
+
+.container-differentials h1{
+    font-size: 100%;
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    text-align: center;
+    background-color: none;
+    padding: 10px;
+    font-size: 50px;
+    bottom: 100px;
+}
+
+.container-differentials h6{
+    position: absolute;
+    bottom: 70px;
+    left: 125px;
+    text-align: left;
+    background-color: none;
+    padding: 10px;
+}
+
+ .differentialText{
+    position: absolute;
+    bottom: 70px;
+    left: 120px;
+    text-align: center;
+    background-color: none;
+    padding: 10px;
+    font-size: 50px;
+    
+}
+
+.content{
+    top: 50cm;
+    color: black;
+}
+
+footer {
+	background:none;
+	color:#000000;
+	padding-top: 16cm;
+    
+}
+footer h5 {
+	color:#000000;
+}
+.footer-links {
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.footer-links li {
+	border-bottom:1px solid #666462;
+	padding:5px;
+}
+footer p {
+	color: #000000;	
+}
+footer a {
+	color:#000000;
+}
+footer a:hover, footer a:focus {
+	color: #B40FB4;
+}
+
+.line{
+    width: 83%;
+    height: 20px;
+    border-bottom: 0.1px solid black;
+    position: absolute;
+    left: 3cm;
+    }
+
+.copyright {
+    color: black;
+	background:none;
+	padding-top:20px;
+	padding-bottom:10px;
+	margin-top:35px;
+    text-align: left;
+    margin-top: 20px;
+}
+.social-icons a {
+	opacity:0.5;
+}
+.social-icons a:hover, .social-icons a:focus {
+	opacity:0.8;
+}
+
+
+
+
